@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DevelopContainer = styled.div`
-    height: 800px;
+    height: 1060px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,6 +60,7 @@ export const DevelopIcon = styled.img`
     height: 160px;
     width: 160px;
     margin-bottom: 10px;
+    border-radius: 50%;
 `
 
 export const DevelopH1 = styled.h1`

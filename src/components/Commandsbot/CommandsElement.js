@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CommandsContainer = styled.div`
-    height: 800px;
+    height: 1060px;
     display: flex;
     flex-direction: column;
     justify-content: center;

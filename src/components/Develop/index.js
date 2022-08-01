@@ -17,8 +17,8 @@ const Develop = () => {
       <DevelopWrapper>
         <DevelopCard>
           <DevelopIcon src={Icon1} />
-          <DevelopH2>Mamypoko666</DevelopH2>
-          <DevelopP>#5799</DevelopP>
+          <DevelopH2>Knot</DevelopH2>
+          <DevelopP>#1010</DevelopP>
         </DevelopCard>
       </DevelopWrapper>
     </DevelopContainer>

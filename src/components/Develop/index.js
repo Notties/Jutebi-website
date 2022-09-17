@@ -21,7 +21,7 @@ const Develop = () => {
         <DevelopCard>
           <DevelopIcon src={Icon1} />
           <DevelopH2>Knot</DevelopH2>
-          <DevelopP>#1010</DevelopP>
+          <DevelopP>#8555</DevelopP>
         </DevelopCard>
       </DevelopWrapper>
     </DevelopContainer>

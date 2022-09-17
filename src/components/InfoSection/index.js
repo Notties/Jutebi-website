@@ -14,6 +14,9 @@ import {
   ImgWrap,
   Img,
 } from "./infoElement";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const InfoSection = ({
   lightBg,
@@ -36,7 +39,7 @@ const InfoSection = ({
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1>
+            <Column1 data-aos="fade-right" data-aos-duration="1500">
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -55,7 +58,7 @@ const InfoSection = ({
                 </BtnWrap>
               </TextWrapper>
             </Column1>
-            <Column2>
+            <Column2 data-aos="fade-left" data-aos-duration="1500">
               <ImgWrap>
                 <Img src={img} alt={alt} />
               </ImgWrap>

@@ -37,7 +37,12 @@ export const DevelopWrapper = styled.div`
 `
 
 export const DevelopCard = styled.div`
-    background: #fff;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -54,7 +59,26 @@ export const DevelopCard = styled.div`
         cursor: pointer;
     }
 
+    @media screen and (max-width: 500px){
+        width: 360px;
+    }
+
+    @media screen and (max-width: 420px){
+        width: 300px;
+    }
+
 `
+export const Images = styled.img`
+    border-radius: 5px;
+
+    @media screen and (max-width: 500px){
+        width: 330px;
+    }
+
+    @media screen and (max-width: 420px){
+        width: 270px;
+    }
+`;
 
 export const DevelopIcon = styled.img`
     height: 160px;

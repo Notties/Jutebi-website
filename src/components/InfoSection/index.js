@@ -39,7 +39,7 @@ const InfoSection = ({
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1 data-aos="fade-right" data-aos-duration="1500">
+            <Column1 data-aos="fade-up" data-aos-duration="1500">
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -58,7 +58,7 @@ const InfoSection = ({
                 </BtnWrap>
               </TextWrapper>
             </Column1>
-            <Column2 data-aos="fade-left" data-aos-duration="1500">
+            <Column2 data-aos="fade-up" data-aos-duration="1500">
               <ImgWrap>
                 <Img src={img} alt={alt} />
               </ImgWrap>

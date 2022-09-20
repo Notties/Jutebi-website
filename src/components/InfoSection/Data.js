@@ -10,7 +10,7 @@ export const homeObjOne = {
   buttonLabel: "Commands",
   imgStart: false,
   img: require("../../images/music.svg"),
-  alt: "Car",
+  alt: "Music",
   dark: true,
   primary: true,
   darkText: false,
